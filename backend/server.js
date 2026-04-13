@@ -48,6 +48,11 @@ app.use(session({
 app.use('/api', authRoutes);
 app.use('/api/content', contentRoutes);
 
+// Root route (to avoid "Cannot GET /")
+app.get('/', (req, res) => {
+  res.send('<h1>🏠 Real Estate API is running</h1><p>Visit <a href="/api/health">/api/health</a> for status.</p>');
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Real Estate API is running 🚀' });
