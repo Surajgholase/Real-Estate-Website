@@ -11,7 +11,7 @@ A premium, full-stack real estate property showcase application built with a mod
 - **Construction Updates**: Vertical timeline showing project progress.
 - **Connectivity Map**: Showcase local landmarks and distances.
 - **Contact Form**: Functional enquiry form with field validations.
-- **Fully Responsive**: Optimized for all screen sizes from mobile to desktop.
+- **Fully Responsive**: Optimized for mobile, tablet, and desktop.
 
 ### 🔐 Admin Dashboard
 - **Secure Authentication**: Session-based login (no JWT required).
